@@ -1,4 +1,6 @@
-var startGame = document.getElementById('start');
+var startGameCM = document.getElementById('start');
 var endGame = document.getElementById('end');
-var boxDiv = document.getElementById('example');
+var gameDiv = document.getElementById('game');
 var boundaries = document.querySelectorAll('.boundary');
+
+var gameRunning = false;
