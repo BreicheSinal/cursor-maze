@@ -17,8 +17,7 @@ function winGame(){
         resetGame();
         console.log('you win');
         gameDiv.style.backgroundColor = '#87CEEB';
-        gameDiv.style.color = 'black';
-        gameDiv.innerText = '\n \n GOOD JOB MATE ;) \n YOU MADE IT';
+        gameDiv.innerText = '\n \nGOOD JOB MATE ;) \n YOU MADE IT';
     }
 }
 
@@ -27,7 +26,6 @@ function loseGame(){
         resetGame();
         console.log('game over');
         gameDiv.style.backgroundColor = 'red';
-        gameDiv.style.color = 'white';
         gameDiv.innerText = '\n \n YOU LOST MATE ;) \n TRY AGAIN!';
     }
 }
@@ -36,6 +34,6 @@ function resetGame(){
     console.log('game reset');
     setTimeout(function(){
         location.reload();
-    }, 2500)
+    }, 1450)
 }
     

@@ -7,3 +7,4 @@ var gameRunning = false;
 
 gameDiv.style.textAlign = 'center';
 gameDiv.style.fontSize = '45px';
+gameDiv.style.color = 'black';
